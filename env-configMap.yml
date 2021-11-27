@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  POSTGRES_USERNAME: dWRhZ3JhbWtlbGRldg==
+  POSTGRES_PASSWORD: Y29sbGVnZTE=
+  AWS_ACCESS_KEY_ID: QVNJQVpUNFFRSFJIVkpYSkNEVVg=
+  AWS_SECRET_ACCESS_KEY: bTExK0RXcmF6MzJ5NjZNQmFTK3ptNXNlMlNqUUR2ay9RZDVqbVZTcQ==
+  AWS_MEDIA_BUCKET: udagram-kelvin-dev
+  AWS_PROFILE: default
+  AWS_REGION: us-east-2
+  JWT_SECRET: testing
+  POSTGRES_DATABASE: postgres
+  POSTGRES_HOST: postgres.co7krqtht9hp.us-east-2.rds.amazonaws.com
+  URL: http://aa14169d0c7404b33847e4ec1f57b17c-421867176.us-east-2.elb.amazonaws.com  
+metadata:
+  name: env-configmap
